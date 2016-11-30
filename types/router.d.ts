@@ -1,5 +1,5 @@
-import Vue = require("vue");
-import { ComponentOptions, PluginFunction } from "vue";
+import Vue = require("vue/types/index");
+import { ComponentOptions, PluginFunction } from "vue/types/index";
 
 type Component = ComponentOptions<Vue> | typeof Vue;
 type Dictionary<T> = { [key: string]: T };

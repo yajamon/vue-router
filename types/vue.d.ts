@@ -2,7 +2,7 @@
  * Augment the typings of Vue.js
  */
 
-import Vue = require("vue");
+import Vue = require("vue/types/index");
 import VueRouter = require("./index");
 import { Route, RawLocation, NavigationGuard } from "./index";
 
